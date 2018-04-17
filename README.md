@@ -1,13 +1,13 @@
-# Flop-Game
-A small game of flop demo, users can achieve the best speed to win one by one by remembering the location of cards in a short time.
-这是一个简单的翻牌游戏
-翻牌的样式可以查看css文件夹里面的animate.css文件
-.in {
-	-webkit-animation-timing-function: ease-out;
-	-webkit-animation-duration: 350ms;
-	animation-timing-function: ease-out;
-	animation-duration: 350ms;
-}
+###Flop-Game
+###A small game of flop demo, users can achieve the best speed to win one by one by remembering the location of cards in a short time.
+####这是一个简单的翻牌游戏
+####翻牌的样式可以查看css文件夹里面的animate.css文件
+		.in {
+			-webkit-animation-timing-function: ease-out;
+			-webkit-animation-duration: 350ms;
+			animation-timing-function: ease-out;
+			animation-duration: 350ms;
+		}
 .out {
 	-webkit-animation-timing-function: ease-in;
 	-webkit-animation-duration: 225ms;

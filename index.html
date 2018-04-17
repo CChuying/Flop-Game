@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="maximum-dpr=2" name="flexible" />
+    <script src="js/flexible_css.debug.js"></script>
+    <script src="js/flexible.debug.js"></script>
+    <title>翻一番</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+</head>
+<body>
+	<div class="game-wrapper">
+		<div class="game-name"><img src="images/name.png"></div>
+		<div class="game-box">
+			<ul class="cards">
+			</ul>
+			<div class="btn wordBox"><span class="icon"></span><span class="time f36">开始</span><span class="word"></div>
+			<div class="game-btn">
+				<img src="images/ranking.png" class="ranking-btn">
+				<img src="images/rule.png" class="rule-btn">
+			</div>
+		</div>
+	</div>
+	<div class="mask "></div>
+	<div class="result alert-box hide">
+		<span class="close"></span>
+		<span class="time">00:00:01</span>
+		<span>去排行榜看看你的排名吧</span>
+	</div>
+	<div class="ranking-box alert-box hide">
+		<span class="close"></span>
+		<ul class="ranking-lists">
+		</ul>
+	</div>
+	<div class="rules-box alert-box " id="rules">
+		<span class="close"></span>
+		<ul>
+			<li>1. 翻动卡牌，寻找相同符号的卡组；</li>
+			<li>2. 以最短的时间完成所有卡组；</li>
+			<li>3.用时最短玩家荣登排行榜。</li>
+		</ul>
+	</div>
+	<div class="music">
+		<audio src="js/useful.mp3" preload id="successMusic" ></audio>
+		<audio src="js/useless.mp3" preload id="failMusic" ></audio>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/filpGame.js"></script>
+</body>
+</html>
+
